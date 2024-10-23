@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TANK_ATTACK"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\CLion 2024.1.4\;CMake Files\..\CLion 2024.1.4\bin\;CMake Files\..\CLion 2024.1.4\bin\mingw\;CMake Files\..\CLion 2024.1.4\bin\mingw\lib\;CMake Files\..\CLion 2024.1.4\bin\mingw\lib\cmake\;CMake Files\..\CLion 2024.1.4\bin\mingw\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TANK_ATTACK">
+				<Option output="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/TANK_ATTACK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 TANK_ATTACK"/>
+					<CompileFile command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TANK_ATTACK/fast">
+				<Option output="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/TANK_ATTACK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/joelg/OneDrive/Desktop/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 TANK_ATTACK/fast"/>
+					<CompileFile command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/joelg/OneDrive/Desktop/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Map.cpp">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Map.h">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Tank.cpp">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Tank.h">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/main.cpp">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/../CLion 2024.1.4/bin/mingw/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\CLion 2024.1.4\bin\mingw\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/../CLion 2024.1.4/bin/mingw/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\CLion 2024.1.4\bin\mingw\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/../CLion 2024.1.4/bin/mingw/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\CLion 2024.1.4\bin\mingw\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/../CLion 2024.1.4/bin/mingw/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\CLion 2024.1.4\bin\mingw\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/../CLion 2024.1.4/bin/mingw/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\CLion 2024.1.4\bin\mingw\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/../CLion 2024.1.4/bin/mingw/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\CLion 2024.1.4\bin\mingw\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+"C:\Users\joelg\OneDrive\Desktop\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\TANK_ATTACK.dir/objects.a
+C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\TANK_ATTACK.dir/objects.a @CMakeFiles\TANK_ATTACK.dir\objects1.rsp
+C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\TANK_ATTACK.dir/objects.a -Wl,--no-whole-archive -o TANK_ATTACK.exe -Wl,--out-implib,libTANK_ATTACK.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TANK_ATTACK.dir\linkLibs.rsp
