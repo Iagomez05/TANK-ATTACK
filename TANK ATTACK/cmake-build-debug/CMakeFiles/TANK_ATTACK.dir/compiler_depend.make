@@ -95,6 +95,7 @@ CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ AT
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
@@ -105,7 +106,6 @@ CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ AT
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
-  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
@@ -140,6 +140,7 @@ CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ AT
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
@@ -148,6 +149,7 @@ CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ AT
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
@@ -175,6 +177,7 @@ CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ AT
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
@@ -185,8 +188,6 @@ CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ AT
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
-  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
-  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
@@ -197,6 +198,7 @@ CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ AT
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
@@ -626,11 +628,17 @@ CMakeFiles/TANK_ATTACK.dir/main.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ A
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Window/WindowHandle.hpp \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Window/WindowStyle.hpp \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
@@ -652,7 +660,6 @@ CMakeFiles/TANK_ATTACK.dir/main.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ A
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
-  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
@@ -679,10 +686,15 @@ CMakeFiles/TANK_ATTACK.dir/main.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ A
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_uninitialized.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
@@ -695,6 +707,7 @@ CMakeFiles/TANK_ATTACK.dir/main.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ A
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
@@ -705,6 +718,7 @@ CMakeFiles/TANK_ATTACK.dir/main.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ A
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
@@ -726,23 +740,24 @@ CMakeFiles/TANK_ATTACK.dir/main.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ A
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
-  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
-  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
   C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
@@ -823,6 +838,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/BlendMode.hpp:
 
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h:
+
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Config.hpp:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/Color.hpp:
@@ -838,6 +855,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/System/Th
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/Sprite.hpp:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/Glsl.inl:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/CircleShape.hpp:
 
@@ -890,6 +909,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/Rect.inl:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/Graphics/RectangleShape.hpp:
 
@@ -950,6 +971,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/System/In
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/System/Lock.hpp:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/include/SFML/System/Time.hpp:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc:
 
@@ -1013,6 +1036,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit:
 
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h:
+
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
@@ -1021,6 +1046,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h:
 
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h:
+
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h:
@@ -1028,6 +1055,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
 
@@ -1046,6 +1075,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc:
 
@@ -1137,6 +1168,10 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h:
 
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/time.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h:
+
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h:
@@ -1201,6 +1236,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/inc
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h:
 
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque:
+
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h:
@@ -1218,12 +1255,6 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd:
-
-C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream:
-
-C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/process.h:
-
-C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator:
 
@@ -1243,9 +1274,13 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream:
 
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h:
+
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept:
 
@@ -1277,6 +1312,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
 
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h:
+
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
@@ -1296,6 +1333,8 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_uninitialized.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/_mingw.h:
 
@@ -1325,6 +1364,10 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/inc
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
 
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/process.h:
+
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/pthread.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h:
@@ -1351,7 +1394,7 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/inc
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/sys/types.h:
 
-C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/time.h:
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h:
 
@@ -1362,6 +1405,8 @@ C:/Users/joelg/OneDrive/Desktop/TANK\ ATTACK/Map.h:
 C:/Users/joelg/OneDrive/Desktop/TANK\ ATTACK/Tank.cpp:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream:
 
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits:
 
@@ -1380,3 +1425,15 @@ C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-min
 C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc:
 
 C:/Users/joelg/OneDrive/Desktop/TANK\ ATTACK/main.cpp:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
+
+C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h:

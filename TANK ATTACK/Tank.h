@@ -2,31 +2,31 @@
 #define TANK_H
 
 #include <SFML/Graphics.hpp>
+#include <vector>
 #include "Map.h"
 
 class Tank {
 public:
-    // Constructor para cargar la textura del tanque y establecer su posición inicial
-    Tank(float x, float y, const std::string& textureFile);
+    Tank(int row, int col, sf::Color color, int cellSize);
 
-    // Dibuja el tanque en la ventana
-    void draw(sf::RenderWindow &window);
-
-    // Mueve el tanque hacia la posición objetivo (destino)
-    void update(float deltaTime, const Map& map);  // Agregamos el parámetro Map aquí
-
-    // Establecer el destino al que debe moverse el tanque
-    void setTargetPosition(float x, float y);
-
-    // Devuelve el sprite del tanque para la detección de clics
-    const sf::Sprite& getSprite() const;
+    void draw(sf::RenderWindow& window) const;
+    void drawPath(sf::RenderWindow& window) const;  // Dibuja la ruta
+    void setTarget(int targetRow, int targetCol, const Map& map);
+    void moveTowardsTarget(const Map& map, float deltaTime);
+    bool isAtTarget() const;
+    bool contains(int x, int y) const;
 
 private:
-    sf::Sprite sprite;  // Sprite para el tanque
-    sf::Texture texture;  // Textura del tanque
+    int row, col;
+    int targetRow, targetCol;
+    int cellSize;
+    float moveSpeed;
+    std::vector<sf::Vector2i> path;
+    int pathIndex;
 
-    sf::Vector2f targetPosition;  // Posición objetivo hacia la que se moverá el tanque
-    float speed;  // Velocidad de movimiento del tanque
+    sf::RectangleShape shape;
+
+    void calculatePath(const Map& map);
 };
 
 #endif // TANK_H

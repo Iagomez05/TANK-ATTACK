@@ -1,23 +1,24 @@
 #include <SFML/Graphics.hpp>
+#include <memory>
 #include "Tank.h"
 #include "Map.h"
-#include <iostream>
-
-enum class PlayerTurn { Player1, Player2 };
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Tank Attack!");
+    const int cellSize = 30;  // Tamaño de cada celda en píxeles
+    const int rows = 20;      // Disminuye el número de filas
+    const int cols = 30;      // Disminuye el número de columnas
+
+    sf::RenderWindow window(sf::VideoMode(cols * cellSize, rows * cellSize), "Tank Attack!");
     window.setFramerateLimit(60);
 
-    sf::Clock clock;
-    Map map("mapa.png", "muro (1).png");
+    Map map(rows, cols, cellSize);
 
-    Tank player1Tank(100, 100, "blue tank (1).png");
-    Tank player2Tank(200, 200, "red tank.png");
+    std::vector<std::unique_ptr<Tank>> tanks;
+    tanks.push_back(std::make_unique<Tank>(1, 1, sf::Color::Blue, cellSize));
+    tanks.push_back(std::make_unique<Tank>(rows - 2, cols - 2, sf::Color::Red, cellSize));
 
-    PlayerTurn turn = PlayerTurn::Player1;
-    bool tankSelected = false;
     Tank* selectedTank = nullptr;
+    bool routeCalculated = false;
 
     while (window.isOpen()) {
         sf::Event event;
@@ -27,33 +28,50 @@ int main() {
             }
 
             if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left) {
-                sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
+                sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+                int targetCol = mousePos.x / cellSize;
+                int targetRow = mousePos.y / cellSize;
 
-                if (!tankSelected) {
-                    if (turn == PlayerTurn::Player1 && player1Tank.getSprite().getGlobalBounds().contains(mousePosition.x, mousePosition.y)) {
-                        selectedTank = &player1Tank;
-                        tankSelected = true;
-                    } else if (turn == PlayerTurn::Player2 && player2Tank.getSprite().getGlobalBounds().contains(mousePosition.x, mousePosition.y)) {
-                        selectedTank = &player2Tank;
-                        tankSelected = true;
+                // Selección del tanque
+                if (selectedTank == nullptr) {
+                    for (auto& tank : tanks) {
+                        if (tank->contains(mousePos.x, mousePos.y)) {
+                            selectedTank = tank.get();
+                            routeCalculated = false;
+                            break;
+                        }
                     }
-                } else if (tankSelected && selectedTank != nullptr) {
-                    selectedTank->setTargetPosition(mousePosition.x, mousePosition.y);
-                    tankSelected = false;
-                    selectedTank = nullptr;
-                    turn = (turn == PlayerTurn::Player1) ? PlayerTurn::Player2 : PlayerTurn::Player1;
+                }
+                // Establece la ruta si hay un tanque seleccionado
+                else if (!routeCalculated) {
+                    selectedTank->setTarget(targetRow, targetCol, map);
+                    routeCalculated = true;
                 }
             }
         }
 
-        float deltaTime = clock.restart().asSeconds();
-        player1Tank.update(deltaTime, map);
-        player2Tank.update(deltaTime, map);
+        // Actualiza y mueve el tanque seleccionado
+        if (selectedTank != nullptr && routeCalculated) {
+            selectedTank->moveTowardsTarget(map, 1.0f / 60.0f);
+            if (selectedTank->isAtTarget()) {
+                selectedTank = nullptr;
+                routeCalculated = false;
+            }
+        }
 
+        // Renderizado
         window.clear();
         map.draw(window);
-        player1Tank.draw(window);
-        player2Tank.draw(window);
+
+        // Dibuja la ruta del tanque seleccionado
+        if (selectedTank != nullptr) {
+            selectedTank->drawPath(window);
+        }
+
+        // Dibuja todos los tanques
+        for (auto& tank : tanks) {
+            tank->draw(window);
+        }
         window.display();
     }
 
