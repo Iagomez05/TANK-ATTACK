@@ -8,7 +8,12 @@ add_executable(TANK_ATTACK main.cpp
         Tank.cpp
         Tank.h
         Map.cpp
-        Map.h)
+        Map.h
+        Bullet.cpp
+        Bullet.h
+        PowerUp.cpp
+        PowerUp.h
+)
 
 # Buscar las bibliotecas de SFML
 set(SFML_DIR "C:/Users/joelg/OneDrive/Desktop/Clion 2024.1.4/bin/mingw/lib/cmake/SFML")

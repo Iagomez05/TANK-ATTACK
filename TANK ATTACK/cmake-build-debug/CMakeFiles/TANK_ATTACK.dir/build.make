@@ -110,11 +110,41 @@ CMakeFiles/TANK_ATTACK.dir/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TANK_ATTACK.dir/Map.cpp.s"
 	C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\Map.cpp" -o CMakeFiles\TANK_ATTACK.dir\Map.cpp.s
 
+CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj: CMakeFiles/TANK_ATTACK.dir/flags.make
+CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ ATTACK/Bullet.cpp
+CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj: CMakeFiles/TANK_ATTACK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj"
+	C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj -MF CMakeFiles\TANK_ATTACK.dir\Bullet.cpp.obj.d -o CMakeFiles\TANK_ATTACK.dir\Bullet.cpp.obj -c "C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\Bullet.cpp"
+
+CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.i"
+	C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\Bullet.cpp" > CMakeFiles\TANK_ATTACK.dir\Bullet.cpp.i
+
+CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.s"
+	C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\Bullet.cpp" -o CMakeFiles\TANK_ATTACK.dir\Bullet.cpp.s
+
+CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj: CMakeFiles/TANK_ATTACK.dir/flags.make
+CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj: C:/Users/joelg/OneDrive/Desktop/TANK\ ATTACK/PowerUp.cpp
+CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj: CMakeFiles/TANK_ATTACK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj"
+	C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj -MF CMakeFiles\TANK_ATTACK.dir\PowerUp.cpp.obj.d -o CMakeFiles\TANK_ATTACK.dir\PowerUp.cpp.obj -c "C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\PowerUp.cpp"
+
+CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.i"
+	C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\PowerUp.cpp" > CMakeFiles\TANK_ATTACK.dir\PowerUp.cpp.i
+
+CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.s"
+	C:\Users\joelg\OneDrive\Desktop\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\PowerUp.cpp" -o CMakeFiles\TANK_ATTACK.dir\PowerUp.cpp.s
+
 # Object files for target TANK_ATTACK
 TANK_ATTACK_OBJECTS = \
 "CMakeFiles/TANK_ATTACK.dir/main.cpp.obj" \
 "CMakeFiles/TANK_ATTACK.dir/Tank.cpp.obj" \
-"CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj"
+"CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj" \
+"CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj" \
+"CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj"
 
 # External object files for target TANK_ATTACK
 TANK_ATTACK_EXTERNAL_OBJECTS =
@@ -122,6 +152,8 @@ TANK_ATTACK_EXTERNAL_OBJECTS =
 TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/main.cpp.obj
 TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/Tank.cpp.obj
 TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj
+TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj
+TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj
 TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/build.make
 TANK_ATTACK.exe: C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/libsfml-graphics-d.a
 TANK_ATTACK.exe: C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/libsfml-audio-d.a
@@ -130,7 +162,7 @@ TANK_ATTACK.exe: C:/Users/joelg/OneDrive/Desktop/CLion\ 2024.1.4/bin/mingw/lib/l
 TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/linkLibs.rsp
 TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/objects1.rsp
 TANK_ATTACK.exe: CMakeFiles/TANK_ATTACK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TANK_ATTACK.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\joelg\OneDrive\Desktop\TANK ATTACK\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TANK_ATTACK.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TANK_ATTACK.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -128,6 +128,30 @@ TANK_ATTACK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TANK_ATTACK.dir\build.make CMakeFiles/TANK_ATTACK.dir/build
 .PHONY : TANK_ATTACK/fast
 
+Bullet.obj: Bullet.cpp.obj
+.PHONY : Bullet.obj
+
+# target to build an object file
+Bullet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TANK_ATTACK.dir\build.make CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj
+.PHONY : Bullet.cpp.obj
+
+Bullet.i: Bullet.cpp.i
+.PHONY : Bullet.i
+
+# target to preprocess a source file
+Bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TANK_ATTACK.dir\build.make CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.i
+.PHONY : Bullet.cpp.i
+
+Bullet.s: Bullet.cpp.s
+.PHONY : Bullet.s
+
+# target to generate assembly for a file
+Bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TANK_ATTACK.dir\build.make CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.s
+.PHONY : Bullet.cpp.s
+
 Map.obj: Map.cpp.obj
 .PHONY : Map.obj
 
@@ -151,6 +175,30 @@ Map.s: Map.cpp.s
 Map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TANK_ATTACK.dir\build.make CMakeFiles/TANK_ATTACK.dir/Map.cpp.s
 .PHONY : Map.cpp.s
+
+PowerUp.obj: PowerUp.cpp.obj
+.PHONY : PowerUp.obj
+
+# target to build an object file
+PowerUp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TANK_ATTACK.dir\build.make CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj
+.PHONY : PowerUp.cpp.obj
+
+PowerUp.i: PowerUp.cpp.i
+.PHONY : PowerUp.i
+
+# target to preprocess a source file
+PowerUp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TANK_ATTACK.dir\build.make CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.i
+.PHONY : PowerUp.cpp.i
+
+PowerUp.s: PowerUp.cpp.s
+.PHONY : PowerUp.s
+
+# target to generate assembly for a file
+PowerUp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TANK_ATTACK.dir\build.make CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.s
+.PHONY : PowerUp.cpp.s
 
 Tank.obj: Tank.cpp.obj
 .PHONY : Tank.obj
@@ -209,9 +257,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TANK_ATTACK
+	@echo ... Bullet.obj
+	@echo ... Bullet.i
+	@echo ... Bullet.s
 	@echo ... Map.obj
 	@echo ... Map.i
 	@echo ... Map.s
+	@echo ... PowerUp.obj
+	@echo ... PowerUp.i
+	@echo ... PowerUp.s
 	@echo ... Tank.obj
 	@echo ... Tank.i
 	@echo ... Tank.s

@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Bullet.cpp" "CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj" "gcc" "CMakeFiles/TANK_ATTACK.dir/Bullet.cpp.obj.d"
   "C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Map.cpp" "CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj" "gcc" "CMakeFiles/TANK_ATTACK.dir/Map.cpp.obj.d"
+  "C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/PowerUp.cpp" "CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj" "gcc" "CMakeFiles/TANK_ATTACK.dir/PowerUp.cpp.obj.d"
   "C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Tank.cpp" "CMakeFiles/TANK_ATTACK.dir/Tank.cpp.obj" "gcc" "CMakeFiles/TANK_ATTACK.dir/Tank.cpp.obj.d"
   "C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/main.cpp" "CMakeFiles/TANK_ATTACK.dir/main.cpp.obj" "gcc" "CMakeFiles/TANK_ATTACK.dir/main.cpp.obj.d"
   )

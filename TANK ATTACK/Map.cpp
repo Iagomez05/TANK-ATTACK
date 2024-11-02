@@ -3,7 +3,7 @@
 
 Map::Map(int rows, int cols, int cellSize)
     : rows(rows), cols(cols), cellSize(cellSize), grid(rows, std::vector<bool>(cols, false)) {
-    // Configuración de bordes
+    // Configuración de obstáculos y bordes
     for (int i = 0; i < rows; ++i) {
         grid[i][0] = grid[i][cols - 1] = true;
     }
@@ -11,13 +11,19 @@ Map::Map(int rows, int cols, int cellSize)
         grid[0][j] = grid[rows - 1][j] = true;
     }
 
-    // Obstáculos internos distribuidos
-    for (int i = 5; i < rows - 5; i += 4) {
-        for (int j = 3; j < cols - 3; j += 5) {
-            grid[i][j] = grid[i + 1][j] = true;
-            grid[i][j + 1] = grid[i + 1][j + 1] = true;
-        }
-    }
+    // Obstáculos internos (ajustados para cubrir más espacios en el mapa)
+    grid[4][4] = grid[5][5] = grid[6][6] = true;
+    grid[7][8] = grid[8][8] = grid[9][8] = true;
+    grid[10][10] = grid[11][10] = grid[12][10] = true;
+    grid[4][15] = grid[5][15] = grid[6][15] = true;
+    grid[7][20] = grid[8][20] = grid[9][20] = true;
+    grid[6][12] = grid[7][12] = grid[8][12] = true;
+    grid[10][15] = grid[11][15] = grid[12][15] = true;
+    grid[14][4] = grid[15][5] = grid[16][6] = true;
+    grid[14][18] = grid[15][18] = grid[16][18] = true;
+    grid[10][22] = grid[11][22] = grid[12][22] = true;
+    grid[15][10] = grid[16][11] = grid[17][12] = true;
+    grid[3][18] = grid[4][18] = grid[5][18] = true;
 }
 
 void Map::draw(sf::RenderWindow& window) const {
@@ -41,6 +47,10 @@ int Map::getRows() const {
 
 int Map::getCols() const {
     return cols;
+}
+
+int Map::getCellSize() const {
+    return cellSize;
 }
 
 std::vector<sf::Vector2i> Map::findPathBFS(int startRow, int startCol, int targetRow, int targetCol) const {

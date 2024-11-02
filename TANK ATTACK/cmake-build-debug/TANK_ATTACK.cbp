@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Bullet.cpp">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Bullet.h">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
 		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Map.cpp">
 			<Option target="TANK_ATTACK"/>
 		</Unit>
 		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Map.h">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/PowerUp.cpp">
+			<Option target="TANK_ATTACK"/>
+		</Unit>
+		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/PowerUp.h">
 			<Option target="TANK_ATTACK"/>
 		</Unit>
 		<Unit filename="C:/Users/joelg/OneDrive/Desktop/TANK ATTACK/Tank.cpp">
